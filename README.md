@@ -123,6 +123,6 @@ This is particularly useful in containerized environments where health checks ma
 ## Use Cases
 
 - Kubernetes/Docker container health checks
-- RQ worker monitoring
+- Celery or RQ worker monitoring
 - Simple service availability checks
 - Development environment health endpoints
