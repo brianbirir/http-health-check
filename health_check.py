@@ -11,7 +11,7 @@ class HealthCheckHandler(http.server.BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header('Content-type', 'text/plain')
             self.end_headers()
-            self.wfile.write(b'OK - RQ Worker is running')
+            self.wfile.write(b'OK - Container is running')
         else:
             self.send_response(404)
             self.end_headers()
