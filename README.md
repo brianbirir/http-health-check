@@ -1,6 +1,6 @@
 # Health Check HTTP Server
 
-A lightweight Python HTTP server designed to provide health check endpoints for monitoring applications, particularly useful for containerized RQ (Redis Queue) workers.
+A lightweight Python HTTP server designed to provide health check endpoints for monitoring applications, particularly useful for containerized applications like Celery or RQ workers (for my usecase).
 
 ## Features
 
